@@ -1,0 +1,17 @@
+{
+    "schema_version": 1,
+    "repositories": [
+        { "repository": "kraftink-cms/Plugin-Faq", "auto_update": true },
+        { "repository": "kraftink-cms/Plugin-Forum", "auto_update": true },
+        { "repository": "kraftink-cms/Plugin-Shop", "auto_update": true },
+        { "repository": "kraftink-cms/Plugin-Staff", "auto_update": true },
+        { "repository": "kraftink-cms/Plugin-Support", "auto_update": true },
+        { "repository": "kraftink-cms/Plugin-Vote", "auto_update": true },
+        { "repository": "kraftink-cms/Plugin-Wiki", "auto_update": true },
+        { "repository": "kraftink-cms/Theme-Atelier", "auto_update": true },
+        { "repository": "kraftink-cms/Theme-Bastion", "auto_update": true },
+        { "repository": "kraftink-cms/Theme-Horizon", "auto_update": true },
+        { "repository": "kraftink-cms/Theme-Unruly", "auto_update": true }
+    ],
+    "resources": []
+}

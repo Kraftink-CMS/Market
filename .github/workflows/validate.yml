@@ -1,0 +1,14 @@
+name: Market validation
+
+on:
+  push:
+    branches: [dev]
+  pull_request:
+    branches: [dev]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    uses: Kraftink-CMS/automation/.github/workflows/validate-market.yml@master
