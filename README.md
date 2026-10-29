@@ -2,6 +2,8 @@
 
 Catalogue public des plugins, thèmes et modules de jeu disponibles pour KraftInk. Les fiches et les versions proviennent des releases GitHub des dépôts inscrits.
 
+Les noms, descriptions et images facultatives viennent de `manifest.market`. Un texte brut reste une chaîne, tandis qu’un champ traduit conserve toutes ses langues réellement disponibles. Les images du dossier `resources/market/` de l’extension sont déclarées par nom ou chemin relatif dans son manifeste, puis résolues en URL GitHub liée au tag de la version. Le catalogue contient une URL HTTPS ou un dictionnaire d’URL par langue. Le site KraftInk et le CMS utilisent directement ces fiches, avec un repli vers l’anglais puis la première langue disponible lorsqu’une traduction manque.
+
 La configuration `resources.json` est maintenue sur `dev`. Sa liste `repositories` contient des entrées comme :
 
 ```json
