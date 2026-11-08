@@ -16,10 +16,10 @@ The CMS and the KraftInk website use the [public JSON catalogue](https://raw.git
 
 The central [Refresh Market workflow](https://github.com/Kraftink-CMS/automation/actions/workflows/refresh-market.yml) runs on `master`. Choose a scope when starting it manually.
 
-| Scope | Repositories refreshed |
-| --- | --- |
-| `automatic` | Repositories with `auto_update: true` |
+| Scope        | Repositories refreshed                                                                            |
+| ------------ | ------------------------------------------------------------------------------------------------- |
+| `automatic`  | Repositories with `auto_update: true`                                                             |
 | `repository` | The registered repository entered in the `repository` field, even if automatic updates are paused |
-| `all` | All registered repositories, including those with automatic updates paused |
+| `all`        | All registered repositories, including those with automatic updates paused                        |
 
 The `repository` and `all` scopes leave `auto_update` as configured.
