@@ -1,25 +1,25 @@
 # KraftInk Market
 
-Catalogue public des plugins, thèmes et modules de jeu disponibles pour KraftInk. Les fiches et les versions proviennent des releases GitHub des dépôts inscrits.
+The public catalogue of KraftInk plugins, themes, and game modules. Listings and versions come from GitHub releases in registered repositories.
 
-Les noms, descriptions et images facultatives viennent de `manifest.market`. Un texte brut reste une chaîne, tandis qu’un champ traduit conserve toutes ses langues réellement disponibles. Les images du dossier `resources/market/` de l’extension sont déclarées par nom ou chemin relatif dans son manifeste, puis résolues en URL GitHub liée au tag de la version. Le catalogue contient une URL HTTPS ou un dictionnaire d’URL par langue. Le site KraftInk et le CMS utilisent directement ces fiches, avec un repli vers l’anglais puis la première langue disponible lorsqu’une traduction manque.
+Listing names, descriptions, and optional images come from `manifest.market`. Plain text stays a string, and translated fields keep the languages supplied by the extension. To include an image from `resources/market/`, reference its filename or relative path in the manifest. The catalogue resolves it to a GitHub URL for the release tag. Image fields contain an HTTPS URL or a map of URLs by language. The KraftInk website and CMS use these listings directly. When a translation is missing, they fall back to English, then to the first available language.
 
-La configuration `resources.json` est maintenue sur `dev`. Sa liste `repositories` contient des entrées comme :
+Maintain `resources.json` on `dev`. The `repositories` array contains entries in this format.
 
 ```json
 { "repository": "Kraftink-CMS/Plugin-Example", "auto_update": true }
 ```
 
-L’option `auto_update` contrôle les mises à jour automatiques de l’offre. Une valeur `false` conserve sa fiche et ses versions publiées. La liste `resources` contient les offres manuelles.
+`auto_update` controls automatic updates for the listing. Set it to `false` to pause automatic updates while keeping the listing and its published versions. The `resources` array contains manually maintained listings.
 
-Le [catalogue public au format JSON](https://raw.githubusercontent.com/Kraftink-CMS/Market/master/catalogue.json) est publié sur `master` et utilisé par le CMS et le site KraftInk.
+The CMS and the KraftInk website use the [public JSON catalogue](https://raw.githubusercontent.com/Kraftink-CMS/Market/master/catalogue.json) published on `master`.
 
-Le workflow central [Refresh Market](https://github.com/Kraftink-CMS/automation/actions/workflows/refresh-market.yml) s’exécute sur `master` avec trois portées manuelles :
+The central [Refresh Market workflow](https://github.com/Kraftink-CMS/automation/actions/workflows/refresh-market.yml) runs on `master`. Choose a scope when starting it manually.
 
-| Portée | Actualisation |
+| Scope | Repositories refreshed |
 | --- | --- |
-| `automatic` | Dépôts avec `auto_update: true` |
-| `repository` | Dépôt inscrit indiqué dans le champ `repository`, pauses incluses |
-| `all` | Tous les dépôts inscrits, pauses incluses |
+| `automatic` | Repositories with `auto_update: true` |
+| `repository` | The registered repository entered in the `repository` field, even if automatic updates are paused |
+| `all` | All registered repositories, including those with automatic updates paused |
 
-Les modes `repository` et `all` actualisent les offres sans modifier `auto_update`.
+The `repository` and `all` scopes leave `auto_update` as configured.
