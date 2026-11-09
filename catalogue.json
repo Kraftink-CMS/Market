@@ -176,6 +176,46 @@
             ]
         },
         {
+            "id": "kraftink-cms/horizon",
+            "slug": "horizon",
+            "type": "theme",
+            "name": "Horizon",
+            "description": {
+                "de": "Ein Abenteuerdesign in Pastellfarben mit illustriertem Panorama und einem Logbuch für Serverneuigkeiten.",
+                "en": "An adventure theme in pastel colors, with an illustrated panorama and a logbook for server news.",
+                "es": "Un tema de aventuras en tonos pastel, con un panorama ilustrado y un cuaderno de bitácora para las noticias del servidor.",
+                "fr": "Un thème d’aventure aux couleurs pastel, avec un panorama illustré et un carnet de bord pour les actualités du serveur.",
+                "pt": "Um tema de aventura em tons pastel, com um panorama ilustrado e um diário de bordo para as novidades do servidor."
+            },
+            "image": {
+                "en": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Horizon/v1.0.0/resources/market/preview-en.jpg",
+                "fr": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Horizon/v1.0.0/resources/market/preview-fr.jpg"
+            },
+            "author": {
+                "id": "kraftink-cms",
+                "name": "nivcoo, KraftInk",
+                "url": "https://github.com/kraftink-cms"
+            },
+            "repository": "https://github.com/Kraftink-CMS/Theme-Horizon",
+            "commercial": {
+                "kind": "free"
+            },
+            "manual_only": false,
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "requirements": {
+                        "cms": ">=0.0.1",
+                        "php": "^8.3"
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Theme-Horizon/releases/download/v1.0.0/horizon-1.0.0.zip",
+                        "sha256": "be39004df857219b2c2682224f7b74bfad9c37d4224eb8803aed5c9c25f97f77"
+                    }
+                }
+            ]
+        },
+        {
             "id": "kraftink-cms/shop",
             "slug": "shop",
             "type": "plugin",
