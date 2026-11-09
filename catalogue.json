@@ -329,6 +329,53 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "kraftink-cms/vote",
+            "slug": "vote",
+            "type": "plugin",
+            "name": {
+                "de": "Abstimmen",
+                "en": "Vote",
+                "es": "Votar",
+                "fr": "Vote",
+                "pt": "Votar"
+            },
+            "description": {
+                "de": "Abstimmungen, Ranglisten und Belohnungen.",
+                "en": "Bring votes to life with leaderboards, milestones and rewards for your players.",
+                "es": "Votos, clasificaciones y recompensas.",
+                "fr": "Faites vivre les votes avec des classements, des paliers et des récompenses pour vos joueurs.",
+                "pt": "Votos, classificações e recompensas."
+            },
+            "author": {
+                "id": "kraftink-cms",
+                "name": "nivcoo, KraftInk",
+                "url": "https://github.com/kraftink-cms"
+            },
+            "repository": "https://github.com/Kraftink-CMS/Plugin-Vote",
+            "commercial": {
+                "kind": "free"
+            },
+            "manual_only": false,
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Vote/releases/download/v1.0.0/vote-1.0.0.zip",
+                        "sha256": "009b21097fb9f8b403f679ab9238ce7b4bfe71ea3e8b2c0a7afc8b4c2f138f2b"
+                    }
+                }
+            ]
         }
     ]
 }
