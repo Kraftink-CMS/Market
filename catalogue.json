@@ -164,11 +164,16 @@
             },
             "description": {
                 "de": "Diskussionen und Gespräche der Community.",
-                "en": "Give your members a place to discuss, with categories, polls, subscriptions and moderation tools.",
+                "en": "Set up a forum with discussions, polls and members-only spaces.",
                 "es": "Debates y conversaciones de la comunidad.",
-                "fr": "Offrez un espace de discussion à vos membres, avec catégories, sondages, suivis et outils de modération.",
+                "fr": "Créez un forum avec des discussions, des sondages et des espaces réservés aux membres.",
                 "pt": "Discussões e conversas da comunidade."
             },
+            "readme": {
+                "en": "Give announcements, player questions and team discussions their own categories. Choose who can read and participate in each one.\n\n- Members can post discussions, attach files, create polls and subscribe to updates.\n- Tags help members find related discussions.\n- Moderators can review reports and lock discussions from the admin panel.\n\nOpen **Extensions → Forum → Categories** to set up your first space and choose who can read and post there.\n",
+                "fr": "Séparez les annonces, l’entraide et les discussions entre équipes en plusieurs catégories. Vous choisissez qui peut les lire et y participer.\n\n- Les membres peuvent lancer une discussion, joindre des fichiers, créer un sondage et suivre les réponses.\n- Les étiquettes permettent de retrouver les discussions sur un même sujet.\n- Les modérateurs peuvent traiter les signalements et verrouiller une discussion depuis le panneau d’administration.\n\nDans **Extensions → Forum → Catégories**, créez votre premier espace et choisissez qui peut y lire et publier.\n"
+            },
+            "icon": "chat-square-text",
             "author": {
                 "id": "kraftink-cms",
                 "name": "nivcoo, KraftInk",
@@ -180,6 +185,23 @@
             },
             "manual_only": false,
             "versions": [
+                {
+                    "version": "1.0.1",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Forum/releases/download/v1.0.1/forum-1.0.1.zip",
+                        "sha256": "4164f74fc724c55cba6677c9ba6a868263065f51737b087ff6374c23e8d5d015"
+                    },
+                    "changelog": "## Changes\n\n- docs\\(market\\): add English and French listing ([`19e1f38`](https://github.com/Kraftink-CMS/Plugin-Forum/commit/19e1f381e40e13649a9d44f94b8c5cc6057370dc))\n\n[Full comparison](https://github.com/Kraftink-CMS/Plugin-Forum/compare/v1.0.0...19e1f381e40e13649a9d44f94b8c5cc6057370dc)"
+                },
                 {
                     "version": "1.0.0",
                     "requirements": {
@@ -194,7 +216,8 @@
                     "download": {
                         "url": "https://github.com/Kraftink-CMS/Plugin-Forum/releases/download/v1.0.0/forum-1.0.0.zip",
                         "sha256": "c9f1347f6a2f6c5471979f948d5bdac3286a8294252ef116b4378e79792c7a8a"
-                    }
+                    },
+                    "changelog": "## Changes\n\n- feat: add Forum for KraftInk ([`92bbd4c`](https://github.com/Kraftink-CMS/Plugin-Forum/commit/92bbd4c0c06e863d289b3dddb233d974e16a735a))\n- Initial commit ([`a254fdf`](https://github.com/Kraftink-CMS/Plugin-Forum/commit/a254fdfa74e61835a4000afd7fd2850545f62236))\n\n[Full history](https://github.com/Kraftink-CMS/Plugin-Forum/commits/bb7c0ed8e178e5bd99f9bb92b7ffc11fe172b267)"
                 }
             ]
         },
