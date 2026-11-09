@@ -141,6 +141,53 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "kraftink-cms/skins",
+            "slug": "skins",
+            "type": "plugin",
+            "name": {
+                "de": "Skins und Umhänge",
+                "en": "Skins and capes",
+                "es": "Skins y capas",
+                "fr": "Skins et capes",
+                "pt": "Skins e capas"
+            },
+            "description": {
+                "de": "Passe Skins und Umhänge für Minecraft Java im Mitgliederprofil an.",
+                "en": "Customize Minecraft Java skins and capes from the member profile.",
+                "es": "Personaliza los skins y las capas de Minecraft Java desde el perfil.",
+                "fr": "Personnalisez les skins et capes Minecraft Java depuis le profil du membre.",
+                "pt": "Personalize skins e capas do Minecraft Java a partir do perfil de membro."
+            },
+            "author": {
+                "id": "kraftink-cms",
+                "name": "nivcoo, KraftInk",
+                "url": "https://github.com/kraftink-cms"
+            },
+            "repository": "https://github.com/Kraftink-CMS/Plugin-Skins",
+            "commercial": {
+                "kind": "free"
+            },
+            "manual_only": false,
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "minecraft"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Skins/releases/download/v1.0.0/skins-1.0.0.zip",
+                        "sha256": "28265d76ab6c5b4fdd43a8a3b0cf7eb1ae721374d379385b73b79c1d0200408b"
+                    }
+                }
+            ]
         }
     ]
 }
