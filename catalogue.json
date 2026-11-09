@@ -451,6 +451,46 @@
             ]
         },
         {
+            "id": "kraftink-cms/unruly",
+            "slug": "unruly",
+            "type": "theme",
+            "name": "Unruly",
+            "description": {
+                "de": "Unruly: klassische Minecraft-Atmosphäre, illustrierte Themenbereiche und deine Community im Mittelpunkt.",
+                "en": "A classic Minecraft atmosphere and illustrated showcases. Unruly, by Orphevs and Eywek, adapted for KraftInk.",
+                "es": "Unruly: un ambiente clásico de Minecraft, secciones ilustradas y tu comunidad en el centro.",
+                "fr": "Une ambiance Minecraft classique et des vitrines illustrées. Unruly, par Orphevs et Eywek, adapté à KraftInk.",
+                "pt": "Unruly: um ambiente clássico de Minecraft, destaques ilustrados e a tua comunidade no centro."
+            },
+            "image": {
+                "en": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Unruly/v1.0.0/resources/market/preview-en.jpg",
+                "fr": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Unruly/v1.0.0/resources/market/preview-fr.jpg"
+            },
+            "author": {
+                "id": "kraftink-cms",
+                "name": "Orphevs, Eywek, nivcoo, KraftInk",
+                "url": "https://github.com/kraftink-cms"
+            },
+            "repository": "https://github.com/Kraftink-CMS/Theme-Unruly",
+            "commercial": {
+                "kind": "free"
+            },
+            "manual_only": false,
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "requirements": {
+                        "cms": ">=0.0.1",
+                        "php": "^8.3"
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Theme-Unruly/releases/download/v1.0.0/unruly-1.0.0.zip",
+                        "sha256": "b213c76a8266aa67d5ca087043e96a2fbd0831c0e936131826d2f6b980abe70e"
+                    }
+                }
+            ]
+        },
+        {
             "id": "kraftink-cms/vote",
             "slug": "vote",
             "type": "plugin",
