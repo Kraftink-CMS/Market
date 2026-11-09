@@ -94,6 +94,53 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "kraftink-cms/shop",
+            "slug": "shop",
+            "type": "plugin",
+            "name": {
+                "de": "Shop",
+                "en": "Shop",
+                "es": "Tienda",
+                "fr": "Boutique",
+                "pt": "Loja"
+            },
+            "description": {
+                "de": "Shop und Belohnungen deiner Community.",
+                "en": "A shop for your community’s digital products, with a cart, payments and in-game deliveries.",
+                "es": "La tienda y las recompensas de tu comunidad.",
+                "fr": "Une boutique pour les produits numériques de votre communauté, avec panier, paiements et livraisons en jeu.",
+                "pt": "A loja e as recompensas da sua comunidade."
+            },
+            "author": {
+                "id": "kraftink-cms",
+                "name": "nivcoo, KraftInk",
+                "url": "https://github.com/kraftink-cms"
+            },
+            "repository": "https://github.com/Kraftink-CMS/Plugin-Shop",
+            "commercial": {
+                "kind": "free"
+            },
+            "manual_only": false,
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Shop/releases/download/v1.0.0/shop-1.0.0.zip",
+                        "sha256": "e3f56206e26930e107434c73dbc98d5e407aa504ee970622448f8c91c392185c"
+                    }
+                }
+            ]
         }
     ]
 }
