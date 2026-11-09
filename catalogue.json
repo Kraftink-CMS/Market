@@ -65,14 +65,18 @@
             "name": "Bastion",
             "description": {
                 "de": "Ein postapokalyptisches Design für Gaming-Communitys mit einer Funkstation im Überschwemmungsgebiet und einem Logbuch für Serverneuigkeiten.",
-                "en": "A post-apocalyptic theme for gaming communities, featuring a flooded relay station and a log for server updates.",
+                "en": "Welcome players to a radio outpost with a relay log for announcements.",
                 "es": "Un tema posapocalíptico para comunidades de jugadores, con una estación de radio en un paisaje inundado y una bitácora de novedades del servidor.",
-                "fr": "Un thème post-apocalyptique pour les communautés de jeu, avec un paysage de relais inondé et un journal pour les actualités du serveur.",
+                "fr": "Accueillez vos joueurs dans un relais radio avec un journal pour vos annonces.",
                 "pt": "Um tema pós-apocalíptico para comunidades de jogadores, com uma estação de rádio numa paisagem inundada e um diário de novidades do servidor."
             },
+            "readme": {
+                "en": "The homepage looks out over a flooded valley. Players can find the latest broadcasts and jump to useful links such as sign-in and account creation.\n\nPublish news to populate the relay log. Add a public server address to give players a place to copy it, and use your site navigation to put important community links within reach.\n\nInstall Bastion from **Administration → Themes** and select **Use for website**.\n",
+                "fr": "Une antenne surplombe une vallée inondée sur la page d’accueil. Les joueurs y retrouvent les dernières annonces et les liens utiles, comme la connexion au site ou la création de compte.\n\nPubliez des actualités pour alimenter le journal et renseignez une adresse publique que les joueurs pourront copier. Organisez la navigation du site pour garder les liens de la communauté à portée de main.\n\nDans **Administration → Thèmes**, installez Bastion et cliquez sur **Utiliser pour le site**.\n"
+            },
             "image": {
-                "en": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Bastion/v1.0.0/resources/market/preview-en.jpg",
-                "fr": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Bastion/v1.0.0/resources/market/preview-fr.jpg"
+                "en": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Bastion/v1.0.1/resources/market/preview-en.jpg",
+                "fr": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Bastion/v1.0.1/resources/market/preview-fr.jpg"
             },
             "author": {
                 "id": "kraftink-cms",
@@ -86,6 +90,18 @@
             "manual_only": false,
             "versions": [
                 {
+                    "version": "1.0.1",
+                    "requirements": {
+                        "cms": ">=0.0.1",
+                        "php": "^8.3"
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Theme-Bastion/releases/download/v1.0.1/bastion-1.0.1.zip",
+                        "sha256": "b9a0273dfb286d244dafe33e08f9f4d9274e32792f5821ef17e42b51fc9f6951"
+                    },
+                    "changelog": "## Changes\n\n- docs\\(market\\): add English and French listing ([`9734953`](https://github.com/Kraftink-CMS/Theme-Bastion/commit/973495300151aead8d043f6fbd4ebc2fae24a41d))\n\n[Full comparison](https://github.com/Kraftink-CMS/Theme-Bastion/compare/v1.0.0...973495300151aead8d043f6fbd4ebc2fae24a41d)"
+                },
+                {
                     "version": "1.0.0",
                     "requirements": {
                         "cms": ">=0.0.1",
@@ -94,7 +110,8 @@
                     "download": {
                         "url": "https://github.com/Kraftink-CMS/Theme-Bastion/releases/download/v1.0.0/bastion-1.0.0.zip",
                         "sha256": "3d5f39bb83147ac9c46384cf4b3d9d096b022b8a21665a5e278b8f651840061c"
-                    }
+                    },
+                    "changelog": "## Changes\n\n- feat: add Bastion for KraftInk ([`d9cf8ad`](https://github.com/Kraftink-CMS/Theme-Bastion/commit/d9cf8ad504a01bc3f897881a11f2d632ea59159a))\n- Initial commit ([`31cc52e`](https://github.com/Kraftink-CMS/Theme-Bastion/commit/31cc52e6c65d1de5c0d9aadef4c23c057dba3de9))\n\n[Full history](https://github.com/Kraftink-CMS/Theme-Bastion/commits/2691023957e5e257580756a5588479d870ee2553)"
                 }
             ]
         },
