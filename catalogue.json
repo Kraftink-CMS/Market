@@ -2,6 +2,46 @@
     "schema_version": 1,
     "resources": [
         {
+            "id": "kraftink-cms/atelier",
+            "slug": "atelier",
+            "type": "theme",
+            "name": "Atelier",
+            "description": {
+                "de": "Ein modernes Theme mit violettem Empfang, einer Titelgeschichte und einem klaren Layout.",
+                "en": "A modern theme in ivory and violet, with spacious typography and an asymmetric news layout.",
+                "es": "Un tema moderno con una bienvenida violeta, una noticia destacada y un diseño claro.",
+                "fr": "Un thème moderne aux tons ivoire et violet, à la typographie ample et aux actualités en composition asymétrique.",
+                "pt": "Um tema moderno com uma receção violeta, uma notícia em destaque e uma disposição simples."
+            },
+            "image": {
+                "en": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Atelier/v1.0.0/resources/market/preview-en.jpg",
+                "fr": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Atelier/v1.0.0/resources/market/preview-fr.jpg"
+            },
+            "author": {
+                "id": "kraftink-cms",
+                "name": "nivcoo, KraftInk",
+                "url": "https://github.com/kraftink-cms"
+            },
+            "repository": "https://github.com/Kraftink-CMS/Theme-Atelier",
+            "commercial": {
+                "kind": "free"
+            },
+            "manual_only": false,
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "requirements": {
+                        "cms": ">=0.0.1",
+                        "php": "^8.3"
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Theme-Atelier/releases/download/v1.0.0/atelier-1.0.0.zip",
+                        "sha256": "57187360ca94f8abacba47cc2726ae91163019ddd786347b5ddab86d4f5be526"
+                    }
+                }
+            ]
+        },
+        {
             "id": "kraftink-cms/faq",
             "slug": "faq",
             "type": "plugin",
