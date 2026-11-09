@@ -376,6 +376,53 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "kraftink-cms/wiki",
+            "slug": "wiki",
+            "type": "plugin",
+            "name": {
+                "de": "Wiki",
+                "en": "Wiki",
+                "es": "Wiki",
+                "fr": "Wiki",
+                "pt": "Wiki"
+            },
+            "description": {
+                "de": "Anleitungen und Dokumentation der Community.",
+                "en": "Bring your server guides together in a wiki with categories, search and revision history.",
+                "es": "Guías y documentación de la comunidad.",
+                "fr": "Rassemblez les guides de votre serveur dans un wiki organisé en catégories, avec recherche et historique.",
+                "pt": "Guias e documentação da comunidade."
+            },
+            "author": {
+                "id": "kraftink-cms",
+                "name": "nivcoo, KraftInk",
+                "url": "https://github.com/kraftink-cms"
+            },
+            "repository": "https://github.com/Kraftink-CMS/Plugin-Wiki",
+            "commercial": {
+                "kind": "free"
+            },
+            "manual_only": false,
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Wiki/releases/download/v1.0.0/wiki-1.0.0.zip",
+                        "sha256": "237b1a8735e9dcd759db6b2d3bae4c62b4ef2e98b440ab613153ff5fe26bc704"
+                    }
+                }
+            ]
         }
     ]
 }
