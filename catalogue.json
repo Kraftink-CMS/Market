@@ -8,14 +8,18 @@
             "name": "Atelier",
             "description": {
                 "de": "Ein modernes Theme mit violettem Empfang, einer Titelgeschichte und einem klaren Layout.",
-                "en": "A modern theme in ivory and violet, with spacious typography and an asymmetric news layout.",
+                "en": "Introduce your server and put a news post in the spotlight.",
                 "es": "Un tema moderno con una bienvenida violeta, una noticia destacada y un diseño claro.",
-                "fr": "Un thème moderne aux tons ivoire et violet, à la typographie ample et aux actualités en composition asymétrique.",
+                "fr": "Présentez votre serveur et mettez une actualité à la une dès l’accueil.",
                 "pt": "Um tema moderno com uma receção violeta, uma notícia em destaque e uma disposição simples."
             },
+            "readme": {
+                "en": "Visitors see your welcome message beside the featured article. Recent posts are listed below.\n\nUse the welcome panel to introduce your server. Publish a post with a cover image for the spotlight, then add a public server address so players can connect from the homepage.\n\nInstall Atelier from **Administration → Themes** and select **Use for website**.\n",
+                "fr": "Les visiteurs découvrent votre message de bienvenue à côté de l’article mis en avant. Plus bas, ils retrouvent les dernières publications.\n\nPrésentez votre serveur dans le panneau de bienvenue. Publiez un article avec une image de couverture pour alimenter la une, puis renseignez l’adresse publique du serveur pour que les joueurs puissent vous rejoindre.\n\nDans **Administration → Thèmes**, installez Atelier et cliquez sur **Utiliser pour le site**.\n"
+            },
             "image": {
-                "en": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Atelier/v1.0.0/resources/market/preview-en.jpg",
-                "fr": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Atelier/v1.0.0/resources/market/preview-fr.jpg"
+                "en": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Atelier/v1.0.1/resources/market/preview-en.jpg",
+                "fr": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Atelier/v1.0.1/resources/market/preview-fr.jpg"
             },
             "author": {
                 "id": "kraftink-cms",
@@ -29,6 +33,18 @@
             "manual_only": false,
             "versions": [
                 {
+                    "version": "1.0.1",
+                    "requirements": {
+                        "cms": ">=0.0.1",
+                        "php": "^8.3"
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Theme-Atelier/releases/download/v1.0.1/atelier-1.0.1.zip",
+                        "sha256": "724ae0c1ac4b88f5226409ee2c529110137fab5ff20c51dc7e60405f6cf5559e"
+                    },
+                    "changelog": "## Changes\n\n- docs\\(market\\): add English and French listing ([`3c2ef05`](https://github.com/Kraftink-CMS/Theme-Atelier/commit/3c2ef05fc89e0dd056db8fea71b2666c0e89718f))\n\n[Full comparison](https://github.com/Kraftink-CMS/Theme-Atelier/compare/v1.0.0...3c2ef05fc89e0dd056db8fea71b2666c0e89718f)"
+                },
+                {
                     "version": "1.0.0",
                     "requirements": {
                         "cms": ">=0.0.1",
@@ -37,7 +53,8 @@
                     "download": {
                         "url": "https://github.com/Kraftink-CMS/Theme-Atelier/releases/download/v1.0.0/atelier-1.0.0.zip",
                         "sha256": "57187360ca94f8abacba47cc2726ae91163019ddd786347b5ddab86d4f5be526"
-                    }
+                    },
+                    "changelog": "## Changes\n\n- feat: add Atelier for KraftInk ([`98f7f4a`](https://github.com/Kraftink-CMS/Theme-Atelier/commit/98f7f4ac1106131120d03353020be46664bf514c))\n- Initial commit ([`15b0ef0`](https://github.com/Kraftink-CMS/Theme-Atelier/commit/15b0ef0518ac03ba6abf093d0c589d625560aad2))\n\n[Full history](https://github.com/Kraftink-CMS/Theme-Atelier/commits/a5865212f6e7a07109932f1f9effb773bad9b9fc)"
                 }
             ]
         },
