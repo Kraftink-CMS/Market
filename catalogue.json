@@ -411,11 +411,16 @@
             },
             "description": {
                 "de": "Stelle das Team deiner Community vor.",
-                "en": "Introduce your team through portraits, biographies and roles within the community.",
+                "en": "Publish a team page with staff profiles and roles.",
                 "es": "Presenta al equipo de tu comunidad.",
-                "fr": "Présentez votre équipe : portraits, biographies et rôles au sein de la communauté.",
+                "fr": "Présentez votre équipe sur une page publique avec les rôles et les profils de ses membres.",
                 "pt": "Apresente a equipa da sua comunidade."
             },
+            "readme": {
+                "en": "Help players find out who runs the server. Add separate pages to explain how the team works or how players can join it.\n\n- Add staff profiles manually or display members automatically from a site rank.\n- Add portraits and biographies so visitors know who does what.\n- Arrange profiles in the order you want and publish pages that explain how your team works.\n\nOpen **Extensions → Our team** to set up your members and choose how the directory appears.\n",
+                "fr": "Aidez les joueurs à identifier les personnes qui s’occupent du serveur. Vous pouvez aussi publier des pages qui expliquent comment l’équipe travaille ou comment la rejoindre.\n\n- Ajoutez des profils manuellement ou affichez automatiquement les membres qui ont un grade donné sur le site.\n- Ajoutez un portrait, une biographie et le rôle de chaque membre.\n- Choisissez l’ordre des profils et publiez des pages pour expliquer le fonctionnement de l’équipe.\n\nOuvrez **Extensions → Notre équipe** pour ajouter vos membres et choisir la présentation de l’annuaire.\n"
+            },
+            "icon": "people",
             "author": {
                 "id": "kraftink-cms",
                 "name": "nivcoo, KraftInk",
@@ -427,6 +432,23 @@
             },
             "manual_only": false,
             "versions": [
+                {
+                    "version": "1.0.1",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Staff/releases/download/v1.0.1/staff-1.0.1.zip",
+                        "sha256": "0b613ff75f608d3c581ded17a475546b434e5f440b3e88f09693bdc1bc27508a"
+                    },
+                    "changelog": "## Changes\n\n- docs\\(market\\): add English and French listing ([`9a4f367`](https://github.com/Kraftink-CMS/Plugin-Staff/commit/9a4f3671b4de74dc599fc34129091dcb04c3ee52))\n\n[Full comparison](https://github.com/Kraftink-CMS/Plugin-Staff/compare/v1.0.0...9a4f3671b4de74dc599fc34129091dcb04c3ee52)"
+                },
                 {
                     "version": "1.0.0",
                     "requirements": {
@@ -441,7 +463,8 @@
                     "download": {
                         "url": "https://github.com/Kraftink-CMS/Plugin-Staff/releases/download/v1.0.0/staff-1.0.0.zip",
                         "sha256": "bbea282edb6c0d37ea477efe98a21c3cda101c819984e5b0ed8ad8c35158d769"
-                    }
+                    },
+                    "changelog": "## Changes\n\n- feat: add Staff for KraftInk ([`3078aa5`](https://github.com/Kraftink-CMS/Plugin-Staff/commit/3078aa51cdc7be2aab3f582c5b2f3886e540aea7))\n- Initial commit ([`f2b9e91`](https://github.com/Kraftink-CMS/Plugin-Staff/commit/f2b9e914217e69a319414a575f16012b3e1d9fea))\n\n[Full history](https://github.com/Kraftink-CMS/Plugin-Staff/commits/79a6b714fd06b3d82761ccdfd902b2b551da9ff7)"
                 }
             ]
         },
