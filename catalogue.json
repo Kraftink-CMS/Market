@@ -274,11 +274,16 @@
             },
             "description": {
                 "de": "Shop und Belohnungen deiner Community.",
-                "en": "A shop for your community’s digital products, with a cart, payments and in-game deliveries.",
+                "en": "Sell ranks, downloads and gift cards from your site.",
                 "es": "La tienda y las recompensas de tu comunidad.",
-                "fr": "Une boutique pour les produits numériques de votre communauté, avec panier, paiements et livraisons en jeu.",
+                "fr": "Vendez des grades, des fichiers et des cartes-cadeaux sur votre site.",
                 "pt": "A loja e as recompensas da sua comunidade."
             },
+            "readme": {
+                "en": "Set up your catalog in the KraftInk admin panel, then use the same panel to follow orders and manage discounts.\n\n- Choose what a buyer receives, such as a site rank, a balance credit, a private download or a game command through KraftLink.\n- Configure the payment methods available at checkout.\n- Review orders and handle refunds where the payment method supports them.\n\nSet up a product and make a test purchase before opening your shop. Check that the payment is confirmed and the buyer receives what you configured.\n",
+                "fr": "Préparez votre catalogue dans le panneau d’administration de KraftInk. Vous pouvez suivre les commandes et gérer les remises au même endroit.\n\n- Choisissez ce que l’acheteur reçoit, par exemple un grade sur le site, un crédit, un fichier privé ou une commande en jeu via KraftLink.\n- Configurez les moyens de paiement proposés aux acheteurs.\n- Consultez les commandes et gérez les remboursements selon les options du moyen de paiement.\n\nAvant d’ouvrir la boutique, créez un produit et faites un achat de test. Vérifiez que le paiement est confirmé et que l’acheteur reçoit le produit prévu.\n"
+            },
+            "icon": "shop",
             "author": {
                 "id": "kraftink-cms",
                 "name": "nivcoo, KraftInk",
@@ -290,6 +295,23 @@
             },
             "manual_only": false,
             "versions": [
+                {
+                    "version": "1.0.1",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Shop/releases/download/v1.0.1/shop-1.0.1.zip",
+                        "sha256": "b85410f3b2eb23026cae00ddadab1262bff693ec785083fbf95619c340f638de"
+                    },
+                    "changelog": "## Changes\n\n- docs\\(market\\): add English and French listing ([`4317296`](https://github.com/Kraftink-CMS/Plugin-Shop/commit/431729681be373e4c213e0bba98288e5ecbd18e9))\n\n[Full comparison](https://github.com/Kraftink-CMS/Plugin-Shop/compare/v1.0.0...431729681be373e4c213e0bba98288e5ecbd18e9)"
+                },
                 {
                     "version": "1.0.0",
                     "requirements": {
@@ -304,7 +326,8 @@
                     "download": {
                         "url": "https://github.com/Kraftink-CMS/Plugin-Shop/releases/download/v1.0.0/shop-1.0.0.zip",
                         "sha256": "e3f56206e26930e107434c73dbc98d5e407aa504ee970622448f8c91c392185c"
-                    }
+                    },
+                    "changelog": "## Changes\n\n- feat: add Shop for KraftInk ([`125f705`](https://github.com/Kraftink-CMS/Plugin-Shop/commit/125f70595235500cfb4e1f67a33c8f761ad442cc))\n- Initial commit ([`9c64ffb`](https://github.com/Kraftink-CMS/Plugin-Shop/commit/9c64ffb676366e542de937178eeb669e340edfe0))\n\n[Full history](https://github.com/Kraftink-CMS/Plugin-Shop/commits/ce49a2ff63df4f3092551cf37d30ee153f85a45a)"
                 }
             ]
         },
