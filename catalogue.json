@@ -548,11 +548,16 @@
             },
             "description": {
                 "de": "Hilfeanfragen und Support-Tickets.",
-                "en": "Keep help requests in private tickets, with assignment and conversation tracking.",
+                "en": "Answer private support tickets and assign them to your team.",
                 "es": "Solicitudes de ayuda y tickets de soporte.",
-                "fr": "Centralisez les demandes d’aide dans des tickets privés, avec assignation et suivi des échanges.",
+                "fr": "Répondez aux demandes d’aide dans des tickets privés que votre équipe peut se répartir.",
                 "pt": "Pedidos de ajuda e tickets de apoio."
             },
+            "readme": {
+                "en": "Keep technical problems and account questions in separate categories. Each ticket keeps the conversation and attachments together.\n\n- Create ticket categories with their own access rules and questions.\n- Assign tickets and record internal notes for other staff members.\n- Share files in replies and save answers to recurring questions as templates.\n\nStart in **Extensions → Support → Categories** and create one category for each kind of request your team handles.\n",
+                "fr": "Créez des espaces distincts pour les problèmes techniques et les questions de compte. Chaque ticket garde les réponses et les pièces jointes au même endroit.\n\n- Créez des catégories avec leurs propres règles d’accès et questions.\n- Assignez les tickets et ajoutez des notes réservées à l’équipe.\n- Joignez des fichiers aux réponses et enregistrez des modèles pour les demandes récurrentes.\n\nDans **Extensions → Assistance → Catégories**, créez une catégorie pour chaque type de demande traité par votre équipe.\n"
+            },
+            "icon": "headset",
             "author": {
                 "id": "kraftink-cms",
                 "name": "nivcoo, KraftInk",
@@ -564,6 +569,23 @@
             },
             "manual_only": false,
             "versions": [
+                {
+                    "version": "1.0.1",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Support/releases/download/v1.0.1/support-1.0.1.zip",
+                        "sha256": "27f37ed5b4e61fa376541cbcf218402fd90c1a6bbd3dce9806fd85fd6acfade6"
+                    },
+                    "changelog": "## Changes\n\n- docs\\(market\\): add English and French listing ([`acc6f64`](https://github.com/Kraftink-CMS/Plugin-Support/commit/acc6f642b6c4fd201f1a3e65792d12312ac08735))\n\n[Full comparison](https://github.com/Kraftink-CMS/Plugin-Support/compare/v1.0.0...acc6f642b6c4fd201f1a3e65792d12312ac08735)"
+                },
                 {
                     "version": "1.0.0",
                     "requirements": {
@@ -578,7 +600,8 @@
                     "download": {
                         "url": "https://github.com/Kraftink-CMS/Plugin-Support/releases/download/v1.0.0/support-1.0.0.zip",
                         "sha256": "b31c25fcc20c13ecc9ff6c7bab01fb7223bfe90edd9f7e000222756280f651bd"
-                    }
+                    },
+                    "changelog": "## Changes\n\n- feat: add Support for KraftInk ([`acb6379`](https://github.com/Kraftink-CMS/Plugin-Support/commit/acb6379369190a2b39cbfb2196868b68b55910c7))\n- Initial commit ([`f7c5d43`](https://github.com/Kraftink-CMS/Plugin-Support/commit/f7c5d43c122c936fdca6d44bda4283f8ba6f6606))\n\n[Full history](https://github.com/Kraftink-CMS/Plugin-Support/commits/627b278609025f839703d5ca8fbf1818b507d8b9)"
                 }
             ]
         },
