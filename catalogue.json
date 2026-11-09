@@ -282,6 +282,53 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "kraftink-cms/support",
+            "slug": "support",
+            "type": "plugin",
+            "name": {
+                "de": "Support",
+                "en": "Support",
+                "es": "Soporte",
+                "fr": "Assistance",
+                "pt": "Apoio"
+            },
+            "description": {
+                "de": "Hilfeanfragen und Support-Tickets.",
+                "en": "Keep help requests in private tickets, with assignment and conversation tracking.",
+                "es": "Solicitudes de ayuda y tickets de soporte.",
+                "fr": "Centralisez les demandes d’aide dans des tickets privés, avec assignation et suivi des échanges.",
+                "pt": "Pedidos de ajuda e tickets de apoio."
+            },
+            "author": {
+                "id": "kraftink-cms",
+                "name": "nivcoo, KraftInk",
+                "url": "https://github.com/kraftink-cms"
+            },
+            "repository": "https://github.com/Kraftink-CMS/Plugin-Support",
+            "commercial": {
+                "kind": "free"
+            },
+            "manual_only": false,
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Support/releases/download/v1.0.0/support-1.0.0.zip",
+                        "sha256": "b31c25fcc20c13ecc9ff6c7bab01fb7223bfe90edd9f7e000222756280f651bd"
+                    }
+                }
+            ]
         }
     ]
 }
