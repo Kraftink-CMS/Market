@@ -663,14 +663,18 @@
             "name": "Unruly",
             "description": {
                 "de": "Unruly: klassische Minecraft-Atmosphäre, illustrierte Themenbereiche und deine Community im Mittelpunkt.",
-                "en": "A classic Minecraft atmosphere and illustrated showcases. Unruly, by Orphevs and Eywek, adapted for KraftInk.",
+                "en": "A Minecraft homepage with an interactive sword and three server showcases.",
                 "es": "Unruly: un ambiente clásico de Minecraft, secciones ilustradas y tu comunidad en el centro.",
-                "fr": "Une ambiance Minecraft classique et des vitrines illustrées. Unruly, par Orphevs et Eywek, adapté à KraftInk.",
+                "fr": "Un accueil Minecraft avec une épée interactive et trois vitrines pour votre serveur.",
                 "pt": "Unruly: um ambiente clássico de Minecraft, destaques ilustrados e a tua comunidade no centro."
             },
+            "readme": {
+                "en": "The banner displays your welcome message and a copyable server address. Use the showcases to introduce your game modes or community activities.\n\nActivate Unruly in **Administration → Themes**. Open **Configure** to choose the accent color, replace the banner and showcase illustrations, or link your launcher and Discord server.\n\nUnruly was created by Orphevs and Eywek and adapted for KraftInk. [Original MineWeb theme](https://github.com/MineWeb/Theme-Unruly)\n",
+                "fr": "Le bandeau affiche votre message de bienvenue et l’adresse du serveur à copier. Utilisez les trois vitrines pour présenter vos modes de jeu ou les activités proposées.\n\nDans **Administration → Thèmes**, activez Unruly pour votre site. Ouvrez **Configurer** pour choisir la couleur d’accent, remplacer les illustrations ou ajouter des liens vers votre lanceur et votre serveur Discord.\n\nOrphevs et Eywek ont créé Unruly, puis le thème a été adapté pour KraftInk. [Thème d’origine pour MineWeb](https://github.com/MineWeb/Theme-Unruly)\n"
+            },
             "image": {
-                "en": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Unruly/v1.0.0/resources/market/preview-en.jpg",
-                "fr": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Unruly/v1.0.0/resources/market/preview-fr.jpg"
+                "en": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Unruly/v1.0.1/resources/market/preview-en.jpg",
+                "fr": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Unruly/v1.0.1/resources/market/preview-fr.jpg"
             },
             "author": {
                 "id": "kraftink-cms",
@@ -684,6 +688,18 @@
             "manual_only": false,
             "versions": [
                 {
+                    "version": "1.0.1",
+                    "requirements": {
+                        "cms": ">=0.0.1",
+                        "php": "^8.3"
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Theme-Unruly/releases/download/v1.0.1/unruly-1.0.1.zip",
+                        "sha256": "e1905760b4ab4cf164b7b8bafae9ba0a8a90d391f5c59e908af28be304201f7d"
+                    },
+                    "changelog": "## Changes\n\n- docs\\(market\\): add English and French listing ([`9db1640`](https://github.com/Kraftink-CMS/Theme-Unruly/commit/9db1640a63c6bdb7f8147db9538ac83ea9015daf))\n\n[Full comparison](https://github.com/Kraftink-CMS/Theme-Unruly/compare/v1.0.0...9db1640a63c6bdb7f8147db9538ac83ea9015daf)"
+                },
+                {
                     "version": "1.0.0",
                     "requirements": {
                         "cms": ">=0.0.1",
@@ -692,7 +708,8 @@
                     "download": {
                         "url": "https://github.com/Kraftink-CMS/Theme-Unruly/releases/download/v1.0.0/unruly-1.0.0.zip",
                         "sha256": "b213c76a8266aa67d5ca087043e96a2fbd0831c0e936131826d2f6b980abe70e"
-                    }
+                    },
+                    "changelog": "## Changes\n\n- docs: date the KraftInk adaptation notice ([`63f9445`](https://github.com/Kraftink-CMS/Theme-Unruly/commit/63f9445928e9e2b6412b78c1fc3a8576eccf7f38))\n- feat: add Unruly for KraftInk ([`43dd2e5`](https://github.com/Kraftink-CMS/Theme-Unruly/commit/43dd2e5f59f64c60c46ff7c4d809adbab6d62437))\n- Initial commit ([`ba6844c`](https://github.com/Kraftink-CMS/Theme-Unruly/commit/ba6844cf4be6cfd342e3f2c314b332007aa6d166))\n\n[Full history](https://github.com/Kraftink-CMS/Theme-Unruly/commits/2be1cfa32acca1d522a04a8030f3465332900798)"
                 }
             ]
         },
