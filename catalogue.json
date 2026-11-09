@@ -705,11 +705,16 @@
             },
             "description": {
                 "de": "Anleitungen und Dokumentation der Community.",
-                "en": "Bring your server guides together in a wiki with categories, search and revision history.",
+                "en": "Publish searchable server guides and rules with revision history.",
                 "es": "Guías y documentación de la comunidad.",
-                "fr": "Rassemblez les guides de votre serveur dans un wiki organisé en catégories, avec recherche et historique.",
+                "fr": "Publiez les guides et règles de votre serveur dans un wiki avec recherche et historique.",
                 "pt": "Guias e documentação da comunidade."
             },
+            "readme": {
+                "en": "Organize getting-started guides, commands and server rules into categories and subcategories. Players can browse by topic to find the page they need.\n\n- Decide which sections visitors, members or selected ranks can read.\n- Attach files to pages and link translations when your site supports several languages.\n- Review previous versions of a page and restore one when needed.\n\nOpen **Extensions → Wiki** to create a category and publish your first page.\n",
+                "fr": "Rangez les guides de prise en main, les commandes et les règlements dans des catégories et sous-catégories. Les joueurs peuvent parcourir les sujets pour retrouver la page dont ils ont besoin.\n\n- Choisissez les sections accessibles aux visiteurs, aux membres ou à certains grades.\n- Joignez des fichiers et reliez les traductions si votre site propose plusieurs langues.\n- Consultez les versions précédentes d’une page et restaurez-en une si nécessaire.\n\nOuvrez **Extensions → Wiki** pour créer une catégorie et publier votre première page.\n"
+            },
+            "icon": "book",
             "author": {
                 "id": "kraftink-cms",
                 "name": "nivcoo, KraftInk",
@@ -721,6 +726,23 @@
             },
             "manual_only": false,
             "versions": [
+                {
+                    "version": "1.0.1",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Wiki/releases/download/v1.0.1/wiki-1.0.1.zip",
+                        "sha256": "ed9e19d4782faf52e95167fb946891aae04a4a6ef83ca09f1c1550ff255dd032"
+                    },
+                    "changelog": "## Changes\n\n- docs\\(market\\): add English and French listing ([`8278594`](https://github.com/Kraftink-CMS/Plugin-Wiki/commit/82785940371adf389b8ac92e281fcd490644db0c))\n\n[Full comparison](https://github.com/Kraftink-CMS/Plugin-Wiki/compare/v1.0.0...82785940371adf389b8ac92e281fcd490644db0c)"
+                },
                 {
                     "version": "1.0.0",
                     "requirements": {
@@ -735,7 +757,8 @@
                     "download": {
                         "url": "https://github.com/Kraftink-CMS/Plugin-Wiki/releases/download/v1.0.0/wiki-1.0.0.zip",
                         "sha256": "237b1a8735e9dcd759db6b2d3bae4c62b4ef2e98b440ab613153ff5fe26bc704"
-                    }
+                    },
+                    "changelog": "## Changes\n\n- feat: add Wiki for KraftInk ([`0f5955d`](https://github.com/Kraftink-CMS/Plugin-Wiki/commit/0f5955d61de13b8d55ca8dbc9a33b8df98e051db))\n- Initial commit ([`fc5a33f`](https://github.com/Kraftink-CMS/Plugin-Wiki/commit/fc5a33fbc1153056079c3539011d545d16d128c9))\n\n[Full history](https://github.com/Kraftink-CMS/Plugin-Wiki/commits/1a7d02901862da0fc5c94c590fc7813ec4e11cfb)"
                 }
             ]
         }
