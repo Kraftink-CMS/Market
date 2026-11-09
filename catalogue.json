@@ -262,14 +262,18 @@
             "name": "Horizon",
             "description": {
                 "de": "Ein Abenteuerdesign in Pastellfarben mit illustriertem Panorama und einem Logbuch für Serverneuigkeiten.",
-                "en": "An adventure theme in pastel colors, with an illustrated panorama and a logbook for server news.",
+                "en": "A floating-island homepage with a server address players can copy.",
                 "es": "Un tema de aventuras en tonos pastel, con un panorama ilustrado y un cuaderno de bitácora para las noticias del servidor.",
-                "fr": "Un thème d’aventure aux couleurs pastel, avec un panorama illustré et un carnet de bord pour les actualités du serveur.",
+                "fr": "Un accueil au milieu d’îles flottantes, avec une adresse de serveur à copier.",
                 "pt": "Um tema de aventura em tons pastel, com um panorama ilustrado e um diário de bordo para as novidades do servidor."
             },
+            "readme": {
+                "en": "Below the landscape, players find your community links and a logbook with the latest news.\n\nSet your homepage heading and add a public server address for players to copy. Add Discord or other social links to the community section and publish news to fill the logbook.\n\nInstall Horizon from **Administration → Themes** and select **Use for website**.\n",
+                "fr": "Sous le paysage, vos joueurs retrouvent les liens de la communauté et le carnet de bord des dernières actualités.\n\nPersonnalisez le titre d’accueil et renseignez l’adresse que les joueurs pourront copier. Ajoutez Discord ou vos autres réseaux à l’espace communauté et publiez des actualités pour remplir le carnet.\n\nDans **Administration → Thèmes**, installez Horizon et cliquez sur **Utiliser pour le site**.\n"
+            },
             "image": {
-                "en": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Horizon/v1.0.0/resources/market/preview-en.jpg",
-                "fr": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Horizon/v1.0.0/resources/market/preview-fr.jpg"
+                "en": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Horizon/v1.0.1/resources/market/preview-en.jpg",
+                "fr": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Horizon/v1.0.1/resources/market/preview-fr.jpg"
             },
             "author": {
                 "id": "kraftink-cms",
@@ -283,6 +287,18 @@
             "manual_only": false,
             "versions": [
                 {
+                    "version": "1.0.1",
+                    "requirements": {
+                        "cms": ">=0.0.1",
+                        "php": "^8.3"
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Theme-Horizon/releases/download/v1.0.1/horizon-1.0.1.zip",
+                        "sha256": "dfbb9d8e5b4f6d4c2a67b0d5a16f4642335e696dadfbf7de508caa80eea5d2ae"
+                    },
+                    "changelog": "## Changes\n\n- docs\\(market\\): add English and French listing ([`05c6e82`](https://github.com/Kraftink-CMS/Theme-Horizon/commit/05c6e82c294d29e29a5429b0454d34d3f1a9d368))\n\n[Full comparison](https://github.com/Kraftink-CMS/Theme-Horizon/compare/v1.0.0...05c6e82c294d29e29a5429b0454d34d3f1a9d368)"
+                },
+                {
                     "version": "1.0.0",
                     "requirements": {
                         "cms": ">=0.0.1",
@@ -291,7 +307,8 @@
                     "download": {
                         "url": "https://github.com/Kraftink-CMS/Theme-Horizon/releases/download/v1.0.0/horizon-1.0.0.zip",
                         "sha256": "be39004df857219b2c2682224f7b74bfad9c37d4224eb8803aed5c9c25f97f77"
-                    }
+                    },
+                    "changelog": "## Changes\n\n- feat: add Horizon for KraftInk ([`99e5328`](https://github.com/Kraftink-CMS/Theme-Horizon/commit/99e532803c248bdb981fe84c2017589182e9c0e1))\n- Initial commit ([`c67d211`](https://github.com/Kraftink-CMS/Theme-Horizon/commit/c67d2110a48f162a532d7a51dc626b76b09a4bd4))\n\n[Full history](https://github.com/Kraftink-CMS/Theme-Horizon/commits/97758fd11a7c06b5c433c95ac98e122b4390dc2b)"
                 }
             ]
         },
