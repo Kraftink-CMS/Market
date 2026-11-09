@@ -658,11 +658,16 @@
             },
             "description": {
                 "de": "Abstimmungen, Ranglisten und Belohnungen.",
-                "en": "Bring votes to life with leaderboards, milestones and rewards for your players.",
+                "en": "Verify player votes and reward individual votes, milestones or leaderboard positions.",
                 "es": "Votos, clasificaciones y recompensas.",
-                "fr": "Faites vivre les votes avec des classements, des paliers et des récompenses pour vos joueurs.",
+                "fr": "Vérifiez les votes de vos joueurs et récompensez-les par vote, par palier ou selon le classement.",
                 "pt": "Votos, classificações e recompensas."
             },
+            "readme": {
+                "en": "Add the directories where your server is listed. Players can find all your voting links and see where they rank on the public vote page.\n\n- Choose rewards for individual votes, milestones or monthly rankings.\n- Configure verification for supported directories and review votes that need attention.\n- Use Votifier for compatible game servers when you want to send votes to the game.\n\nAdd a voting site under **Extensions → Vote**. Cast a test vote and check that it is confirmed and the reward reaches the player.\n",
+                "fr": "Ajoutez les annuaires où votre serveur est référencé. La page publique rassemble les liens de vote et permet aux joueurs de consulter le classement.\n\n- Définissez les récompenses par vote, par palier ou selon le classement mensuel.\n- Configurez la vérification pour les annuaires compatibles et examinez les votes qui demandent un contrôle.\n- Utilisez Votifier pour transmettre les votes aux serveurs de jeu compatibles.\n\nAjoutez un annuaire dans **Extensions → Vote**, puis faites un vote de test pour vérifier sa confirmation et la remise de la récompense.\n"
+            },
+            "icon": "check2-square",
             "author": {
                 "id": "kraftink-cms",
                 "name": "nivcoo, KraftInk",
@@ -674,6 +679,23 @@
             },
             "manual_only": false,
             "versions": [
+                {
+                    "version": "1.0.1",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Vote/releases/download/v1.0.1/vote-1.0.1.zip",
+                        "sha256": "9e8718c3039d4f50fbdee8930c65e8e5f2d30d837759ad0276b0df14b8c7cf70"
+                    },
+                    "changelog": "## Changes\n\n- docs\\(market\\): add English and French listing ([`245008a`](https://github.com/Kraftink-CMS/Plugin-Vote/commit/245008a06667359894bddd8c6b9052c106b2cce8))\n\n[Full comparison](https://github.com/Kraftink-CMS/Plugin-Vote/compare/v1.0.0...245008a06667359894bddd8c6b9052c106b2cce8)"
+                },
                 {
                     "version": "1.0.0",
                     "requirements": {
@@ -688,7 +710,8 @@
                     "download": {
                         "url": "https://github.com/Kraftink-CMS/Plugin-Vote/releases/download/v1.0.0/vote-1.0.0.zip",
                         "sha256": "009b21097fb9f8b403f679ab9238ce7b4bfe71ea3e8b2c0a7afc8b4c2f138f2b"
-                    }
+                    },
+                    "changelog": "## Changes\n\n- feat: add Vote for KraftInk ([`88609b6`](https://github.com/Kraftink-CMS/Plugin-Vote/commit/88609b63c4f0b04d120509e15e1c88d2e3e5eac6))\n- Initial commit ([`dd49f11`](https://github.com/Kraftink-CMS/Plugin-Vote/commit/dd49f11ac3baf778efd102d9f654718a8baf9870))\n\n[Full history](https://github.com/Kraftink-CMS/Plugin-Vote/commits/3c08442482863bd3ace3feffc497eedf92b8fdc4)"
                 }
             ]
         },
