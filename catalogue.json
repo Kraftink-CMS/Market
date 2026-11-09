@@ -235,6 +235,53 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "kraftink-cms/stats",
+            "slug": "stats",
+            "type": "plugin",
+            "name": {
+                "de": "Statistiken",
+                "en": "Statistics",
+                "es": "Estadísticas",
+                "fr": "Statistiques",
+                "pt": "Estatísticas"
+            },
+            "description": {
+                "de": "Verfolge den Website-Verkehr, die Besucherentwicklung und die Leistung deiner Spielserver.",
+                "en": "Track website traffic, audience trends and game server performance.",
+                "es": "Consulta el tráfico del sitio, su audiencia y el rendimiento de los servidores de juego.",
+                "fr": "Suivez le trafic du site, son audience et les performances des serveurs de jeu.",
+                "pt": "Acompanhe o tráfego do site, o público e o desempenho dos servidores de jogo."
+            },
+            "author": {
+                "id": "kraftink-cms",
+                "name": "nivcoo, KraftInk",
+                "url": "https://github.com/kraftink-cms"
+            },
+            "repository": "https://github.com/Kraftink-CMS/Plugin-Stats",
+            "commercial": {
+                "kind": "free"
+            },
+            "manual_only": false,
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Stats/releases/download/v1.0.0/stats-1.0.0.zip",
+                        "sha256": "aaa82e60c134aa6a3c8d2e465228c6bd32300ac2630a9e00b88f53bc6ea9cd2c"
+                    }
+                }
+            ]
         }
     ]
 }
