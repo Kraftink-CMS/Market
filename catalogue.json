@@ -480,12 +480,14 @@
                 "pt": "Estatísticas"
             },
             "description": {
-                "de": "Verfolge den Website-Verkehr, die Besucherentwicklung und die Leistung deiner Spielserver.",
-                "en": "Track website traffic, audience trends and game server performance.",
-                "es": "Consulta el tráfico del sitio, su audiencia y el rendimiento de los servidores de juego.",
-                "fr": "Suivez le trafic du site, son audience et les performances des serveurs de jeu.",
-                "pt": "Acompanhe o tráfego do site, o público e o desempenho dos servidores de jogo."
+                "en": "Track site traffic, sign-ups and game server activity.",
+                "fr": "Suivez la fréquentation du site, les inscriptions et l’activité de vos serveurs de jeu."
             },
+            "readme": {
+                "en": "Compare daily site traffic and look for peaks in concurrent players. The KraftInk admin panel brings those figures together in one dashboard.\n\n- Review daily visitors, page views and referral domains.\n- Filter by date or server and compare with the previous period.\n- Export daily totals as CSV. Where your server connection reports them, the KraftInk scheduler can collect player counts and performance metrics.\n\nOpen **Extensions → Statistics** and choose the period you want to review.\n",
+                "fr": "Repérez les jours de forte fréquentation du site et les pics de joueurs connectés. Le tableau de bord rassemble les chiffres dans le panneau d’administration de KraftInk.\n\n- Retrouvez les visites, les pages vues et les sites d’origine jour par jour.\n- Filtrez les résultats par date ou par serveur et comparez-les avec la période précédente.\n- Exportez les totaux quotidiens en CSV. Le planificateur de KraftInk peut relever le nombre de joueurs et les mesures de performance transmises par votre serveur.\n\nOuvrez **Extensions → Statistiques** et sélectionnez la période à consulter.\n"
+            },
+            "icon": "bar-chart-line",
             "author": {
                 "id": "kraftink-cms",
                 "name": "nivcoo, KraftInk",
@@ -497,6 +499,23 @@
             },
             "manual_only": false,
             "versions": [
+                {
+                    "version": "1.0.1",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Stats/releases/download/v1.0.1/stats-1.0.1.zip",
+                        "sha256": "0a2c4b63e807a46d1d47e09010b0043605d22b56f5c2c59dde14afe26f5f594e"
+                    },
+                    "changelog": "## Changes\n\n- docs\\(market\\): add English and French listing ([`5cd5c20`](https://github.com/Kraftink-CMS/Plugin-Stats/commit/5cd5c20222ec91ed4284e04236780679e1ac133e))\n\n[Full comparison](https://github.com/Kraftink-CMS/Plugin-Stats/compare/v1.0.0...5cd5c20222ec91ed4284e04236780679e1ac133e)"
+                },
                 {
                     "version": "1.0.0",
                     "requirements": {
@@ -511,7 +530,8 @@
                     "download": {
                         "url": "https://github.com/Kraftink-CMS/Plugin-Stats/releases/download/v1.0.0/stats-1.0.0.zip",
                         "sha256": "aaa82e60c134aa6a3c8d2e465228c6bd32300ac2630a9e00b88f53bc6ea9cd2c"
-                    }
+                    },
+                    "changelog": "## Changes\n\n- feat: add Statistics for KraftInk ([`579de95`](https://github.com/Kraftink-CMS/Plugin-Stats/commit/579de95668ccc03fa01adcc10e8fa18e905556f5))\n- Initial commit ([`82efb4c`](https://github.com/Kraftink-CMS/Plugin-Stats/commit/82efb4c57a17b35e7dc3fc83c9dabd7510c207dc))\n\n[Full history](https://github.com/Kraftink-CMS/Plugin-Stats/commits/b08d6bfa86ace1698b925789dcf7e56012124b39)"
                 }
             ]
         },
