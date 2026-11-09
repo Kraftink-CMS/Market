@@ -188,6 +188,53 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "kraftink-cms/staff",
+            "slug": "staff",
+            "type": "plugin",
+            "name": {
+                "de": "Unser Team",
+                "en": "Staff",
+                "es": "Nuestro equipo",
+                "fr": "Équipe",
+                "pt": "A nossa equipa"
+            },
+            "description": {
+                "de": "Stelle das Team deiner Community vor.",
+                "en": "Introduce your team through portraits, biographies and roles within the community.",
+                "es": "Presenta al equipo de tu comunidad.",
+                "fr": "Présentez votre équipe : portraits, biographies et rôles au sein de la communauté.",
+                "pt": "Apresente a equipa da sua comunidade."
+            },
+            "author": {
+                "id": "kraftink-cms",
+                "name": "nivcoo, KraftInk",
+                "url": "https://github.com/kraftink-cms"
+            },
+            "repository": "https://github.com/Kraftink-CMS/Plugin-Staff",
+            "commercial": {
+                "kind": "free"
+            },
+            "manual_only": false,
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Staff/releases/download/v1.0.0/staff-1.0.0.zip",
+                        "sha256": "bbea282edb6c0d37ea477efe98a21c3cda101c819984e5b0ed8ad8c35158d769"
+                    }
+                }
+            ]
         }
     ]
 }
