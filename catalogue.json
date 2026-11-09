@@ -94,11 +94,16 @@
             },
             "description": {
                 "de": "Häufige Fragen der Community.",
-                "en": "Answer recurring questions with categories and answers that are easy to find.",
+                "en": "Publish answers that players can search or browse by category.",
                 "es": "Preguntas frecuentes de la comunidad.",
-                "fr": "Répondez aux questions récurrentes avec des catégories et des réponses faciles à retrouver.",
+                "fr": "Publiez des réponses que vos joueurs peuvent retrouver par recherche ou par catégorie.",
                 "pt": "Perguntas frequentes da comunidade."
             },
+            "readme": {
+                "en": "Explain how to join your server, where to download the launcher or whom to contact about a problem. Players can find those answers in one place.\n\n- Group related questions and add images to answers that need a walkthrough.\n- Keep answers as drafts until they are ready to publish.\n- Link translations of a question when your site offers more than one language.\n\nAfter installing FAQ, open **Extensions → Frequently asked questions** to create your first category and publish an answer.\n",
+                "fr": "Expliquez comment rejoindre le serveur, où télécharger le lanceur ou à qui signaler un problème. Les joueurs retrouvent ces informations au même endroit.\n\n- Regroupez les questions par sujet et illustrez les étapes avec des images.\n- Gardez vos réponses en brouillon avant de les publier.\n- Reliez les traductions d’une même question si votre site propose plusieurs langues.\n\nAprès l’installation, ouvrez **Extensions → Questions fréquentes** pour créer une catégorie et publier votre première réponse.\n"
+            },
+            "icon": "question-circle",
             "author": {
                 "id": "kraftink-cms",
                 "name": "nivcoo, KraftInk",
@@ -110,6 +115,23 @@
             },
             "manual_only": false,
             "versions": [
+                {
+                    "version": "1.0.1",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Faq/releases/download/v1.0.1/faq-1.0.1.zip",
+                        "sha256": "263572ecff25fd397e65fe341920343b7c8f8fd12092f8d40828799cbe998650"
+                    },
+                    "changelog": "## Changes\n\n- docs\\(market\\): add English and French listing ([`7106790`](https://github.com/Kraftink-CMS/Plugin-Faq/commit/7106790cfa8c354c47ef630a5f0acf1c34faefec))\n\n[Full comparison](https://github.com/Kraftink-CMS/Plugin-Faq/compare/v1.0.0...7106790cfa8c354c47ef630a5f0acf1c34faefec)"
+                },
                 {
                     "version": "1.0.0",
                     "requirements": {
@@ -124,7 +146,8 @@
                     "download": {
                         "url": "https://github.com/Kraftink-CMS/Plugin-Faq/releases/download/v1.0.0/faq-1.0.0.zip",
                         "sha256": "c6cfbd89dc87b46801f3583898e11a9b7fc915bbd7be72502e311d43b12cd2c5"
-                    }
+                    },
+                    "changelog": "## Changes\n\n- feat: add FAQ for KraftInk ([`1c60c72`](https://github.com/Kraftink-CMS/Plugin-Faq/commit/1c60c723c3ca13974afef75fafd381de2b41b7b8))\n- Initial commit ([`3622db1`](https://github.com/Kraftink-CMS/Plugin-Faq/commit/3622db16ee0cccab53ecb0be25e6f01641fce0d4))\n\n[Full history](https://github.com/Kraftink-CMS/Plugin-Faq/commits/68e41448e952161d8e4ce8001ceda366b623ccc8)"
                 }
             ]
         },
