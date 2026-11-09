@@ -1,4 +1,52 @@
 {
     "schema_version": 1,
-    "resources": []
+    "resources": [
+        {
+            "id": "kraftink-cms/faq",
+            "slug": "faq",
+            "type": "plugin",
+            "name": {
+                "de": "Häufige Fragen",
+                "en": "FAQ",
+                "es": "Preguntas frecuentes",
+                "fr": "FAQ",
+                "pt": "Perguntas frequentes"
+            },
+            "description": {
+                "de": "Häufige Fragen der Community.",
+                "en": "Answer recurring questions with categories and answers that are easy to find.",
+                "es": "Preguntas frecuentes de la comunidad.",
+                "fr": "Répondez aux questions récurrentes avec des catégories et des réponses faciles à retrouver.",
+                "pt": "Perguntas frequentes da comunidade."
+            },
+            "author": {
+                "id": "kraftink-cms",
+                "name": "nivcoo, KraftInk",
+                "url": "https://github.com/kraftink-cms"
+            },
+            "repository": "https://github.com/Kraftink-CMS/Plugin-Faq",
+            "commercial": {
+                "kind": "free"
+            },
+            "manual_only": false,
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Faq/releases/download/v1.0.0/faq-1.0.0.zip",
+                        "sha256": "c6cfbd89dc87b46801f3583898e11a9b7fc915bbd7be72502e311d43b12cd2c5"
+                    }
+                }
+            ]
+        }
+    ]
 }
