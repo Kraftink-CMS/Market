@@ -343,12 +343,14 @@
                 "pt": "Skins e capas"
             },
             "description": {
-                "de": "Passe Skins und Umhänge für Minecraft Java im Mitgliederprofil an.",
-                "en": "Customize Minecraft Java skins and capes from the member profile.",
-                "es": "Personaliza los skins y las capas de Minecraft Java desde el perfil.",
-                "fr": "Personnalisez les skins et capes Minecraft Java depuis le profil du membre.",
-                "pt": "Personalize skins e capas do Minecraft Java a partir do perfil de membro."
+                "en": "Let Minecraft Java players manage skins and capes from their profiles.",
+                "fr": "Les joueurs Minecraft Java peuvent gérer leurs skins et capes depuis leur profil."
             },
+            "readme": {
+                "en": "Once members link a verified Minecraft Java account, they can upload textures and preview them before saving.\n\n- Compatible launchers can read and upload player textures through the API.\n- Enable public PNG links when you want members to share new uploads.\n- Apply skins in game with KraftLink and SkinsRestorer on a compatible Bukkit server. Cape files can be used on the site and by compatible launchers.\n\nOpen **Extensions → Skins and capes** to choose who can upload textures and which connected servers can apply them.\n",
+                "fr": "Après avoir lié un compte Minecraft Java vérifié, les membres peuvent importer et prévisualiser leurs textures avant de les enregistrer.\n\n- Les lanceurs compatibles peuvent consulter et envoyer des textures via l’API.\n- Activez les liens PNG publics si vous souhaitez permettre le partage des nouveaux fichiers.\n- Appliquez les skins en jeu avec KraftLink et SkinsRestorer sur un serveur compatible Bukkit. Les fichiers de cape sont utilisables sur le site et dans les lanceurs compatibles.\n\nDans **Extensions → Skins et capes**, choisissez qui peut importer des textures et quels serveurs connectés peuvent les appliquer.\n"
+            },
+            "icon": "person-bounding-box",
             "author": {
                 "id": "kraftink-cms",
                 "name": "nivcoo, KraftInk",
@@ -360,6 +362,23 @@
             },
             "manual_only": false,
             "versions": [
+                {
+                    "version": "1.0.1",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "minecraft"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Skins/releases/download/v1.0.1/skins-1.0.1.zip",
+                        "sha256": "88d1240bf758efa65acc0d07be6fbd2ce2157bde21db3af3b453be98a58f78e4"
+                    },
+                    "changelog": "## Changes\n\n- docs\\(market\\): add English and French listing ([`c7c7b45`](https://github.com/Kraftink-CMS/Plugin-Skins/commit/c7c7b45ff85321c4f09abedc6d8c674084c374e3))\n\n[Full comparison](https://github.com/Kraftink-CMS/Plugin-Skins/compare/v1.0.0...c7c7b45ff85321c4f09abedc6d8c674084c374e3)"
+                },
                 {
                     "version": "1.0.0",
                     "requirements": {
@@ -374,7 +393,8 @@
                     "download": {
                         "url": "https://github.com/Kraftink-CMS/Plugin-Skins/releases/download/v1.0.0/skins-1.0.0.zip",
                         "sha256": "28265d76ab6c5b4fdd43a8a3b0cf7eb1ae721374d379385b73b79c1d0200408b"
-                    }
+                    },
+                    "changelog": "## Changes\n\n- feat: add Skins for KraftInk ([`df4591c`](https://github.com/Kraftink-CMS/Plugin-Skins/commit/df4591c30e3467e7798f875658d4fa6aebfb63ac))\n- Initial commit ([`bd748f6`](https://github.com/Kraftink-CMS/Plugin-Skins/commit/bd748f6557e81362dc645a953d431a60433337c0))\n\n[Full history](https://github.com/Kraftink-CMS/Plugin-Skins/commits/751c7e7e9db372a700433082c34144dc7ac52752)"
                 }
             ]
         },
