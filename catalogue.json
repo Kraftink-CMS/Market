@@ -347,6 +347,23 @@
             "manual_only": false,
             "versions": [
                 {
+                    "version": "1.1.0",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Shop/releases/download/v1.1.0/shop-1.1.0.zip",
+                        "sha256": "e1cff5ec06050ef22f0474195f25e5d83688349aa20beffad3deb4c8f6b617d4"
+                    },
+                    "changelog": "## Changes\n\n- feat\\(payments\\): guide Stripe and PayPal setup ([`5c8500b`](https://github.com/Kraftink-CMS/Plugin-Shop/commit/5c8500bb7843cf48cf0ac18d9e02dc41ba43aa11))\n\n[Full comparison](https://github.com/Kraftink-CMS/Plugin-Shop/compare/v1.0.1...5c8500bb7843cf48cf0ac18d9e02dc41ba43aa11)"
+                },
+                {
                     "version": "1.0.1",
                     "requirements": {
                         "php": "^8.4.1",
