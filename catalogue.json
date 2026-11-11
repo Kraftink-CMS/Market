@@ -551,6 +551,23 @@
             "manual_only": false,
             "versions": [
                 {
+                    "version": "1.0.2",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Stats/releases/download/v1.0.2/stats-1.0.2.zip",
+                        "sha256": "f2ce203df87db3c7e7e348b777931d43452f6f28c60c81c3cefe37344c32618d"
+                    },
+                    "changelog": "## Changes\n\n- fix\\(stats\\): record CPU from KraftLink heartbeats ([`f2be8f2`](https://github.com/Kraftink-CMS/Plugin-Stats/commit/f2be8f2dec9eba63b77df8625659b4bf04881f7f))\n\n[Full comparison](https://github.com/Kraftink-CMS/Plugin-Stats/compare/v1.0.1...f2be8f2dec9eba63b77df8625659b4bf04881f7f)"
+                },
+                {
                     "version": "1.0.1",
                     "requirements": {
                         "php": "^8.4.1",
