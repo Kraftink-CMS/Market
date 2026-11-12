@@ -542,6 +542,23 @@
             "manual_only": false,
             "versions": [
                 {
+                    "version": "1.1.0",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Staff/releases/download/v1.1.0/staff-1.1.0.zip",
+                        "sha256": "d4d79844814112b2e85c6bfbb237dc027c34fd1f52efc16a270733948d85ee34"
+                    },
+                    "changelog": "## Changes\n\n- fix: preserve icon support on published CMS versions ([`06795cc`](https://github.com/Kraftink-CMS/Plugin-Staff/commit/06795cc1f3cce092eaffda52fad1a5e03e11be96))\n- feat: use the shared social icon picker ([`6e3c0ef`](https://github.com/Kraftink-CMS/Plugin-Staff/commit/6e3c0ef310b51adb90245b59ee0a7a16abb10788))\n\n[Full comparison](https://github.com/Kraftink-CMS/Plugin-Staff/compare/v1.0.1...06795cc1f3cce092eaffda52fad1a5e03e11be96)"
+                },
+                {
                     "version": "1.0.1",
                     "requirements": {
                         "php": "^8.4.1",
