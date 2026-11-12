@@ -679,6 +679,23 @@
             "manual_only": false,
             "versions": [
                 {
+                    "version": "1.1.0",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Support/releases/download/v1.1.0/support-1.1.0.zip",
+                        "sha256": "1596860d3fd0282c91af976c0fb5ac1069eba061cc486ef6793156e773d9d075"
+                    },
+                    "changelog": "## Changes\n\n- fix: preserve icon support on published CMS versions ([`197da37`](https://github.com/Kraftink-CMS/Plugin-Support/commit/197da37ea36bcac1a2364250f134a22f0ce8bdf3))\n- feat: use the shared category icon picker ([`ba6898c`](https://github.com/Kraftink-CMS/Plugin-Support/commit/ba6898cb8a5405af2e18a56b0b559f5410a47cdb))\n\n[Full comparison](https://github.com/Kraftink-CMS/Plugin-Support/compare/v1.0.1...197da37ea36bcac1a2364250f134a22f0ce8bdf3)"
+                },
+                {
                     "version": "1.0.1",
                     "requirements": {
                         "php": "^8.4.1",
