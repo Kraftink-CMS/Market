@@ -542,6 +542,23 @@
             "manual_only": false,
             "versions": [
                 {
+                    "version": "1.1.1",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Staff/releases/download/v1.1.1/staff-1.1.1.zip",
+                        "sha256": "b94e7a624e31d0d8ab5846f1170fb6971b62dd70c90902487b2b1ba15cefe47d"
+                    },
+                    "changelog": "## Changes\n\n- fix: use the shared icon components directly ([`dad3f42`](https://github.com/Kraftink-CMS/Plugin-Staff/commit/dad3f4263a9a7e6fe8c73ed4fce62ffaf6930ac1))\n\n[Full comparison](https://github.com/Kraftink-CMS/Plugin-Staff/compare/v1.1.0...dad3f4263a9a7e6fe8c73ed4fce62ffaf6930ac1)"
+                },
+                {
                     "version": "1.1.0",
                     "requirements": {
                         "php": "^8.4.1",
