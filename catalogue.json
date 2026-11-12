@@ -330,8 +330,8 @@
                 "fr": "Sous le paysage, vos joueurs retrouvent les liens de la communauté et le carnet de bord des dernières actualités.\n\nPersonnalisez le titre d’accueil et renseignez l’adresse que les joueurs pourront copier. Ajoutez Discord ou vos autres réseaux à l’espace communauté et publiez des actualités pour remplir le carnet.\n\nDans **Administration → Thèmes**, installez Horizon et cliquez sur **Utiliser pour le site**.\n"
             },
             "image": {
-                "en": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Horizon/v1.1.0/resources/market/preview-en.jpg",
-                "fr": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Horizon/v1.1.0/resources/market/preview-fr.jpg"
+                "en": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Horizon/v1.1.1/resources/market/preview-en.jpg",
+                "fr": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Horizon/v1.1.1/resources/market/preview-fr.jpg"
             },
             "author": {
                 "id": "kraftink-cms",
@@ -344,6 +344,18 @@
             },
             "manual_only": false,
             "versions": [
+                {
+                    "version": "1.1.1",
+                    "requirements": {
+                        "cms": ">=0.0.1",
+                        "php": "^8.3"
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Theme-Horizon/releases/download/v1.1.1/horizon-1.1.1.zip",
+                        "sha256": "453111828b5c309fa4d92f65900fc98f5f6c1094a689bbece28b43e9e7df131a"
+                    },
+                    "changelog": "## Changes\n\n- fix: use the shared icon components directly ([`61b94bc`](https://github.com/Kraftink-CMS/Theme-Horizon/commit/61b94bc994987117e62e3da6fdfacec01ff62c3d))\n\n[Full comparison](https://github.com/Kraftink-CMS/Theme-Horizon/compare/v1.1.0...61b94bc994987117e62e3da6fdfacec01ff62c3d)"
+                },
                 {
                     "version": "1.1.0",
                     "requirements": {
