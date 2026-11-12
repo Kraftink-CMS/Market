@@ -284,8 +284,8 @@
                 "fr": "Sous le paysage, vos joueurs retrouvent les liens de la communauté et le carnet de bord des dernières actualités.\n\nPersonnalisez le titre d’accueil et renseignez l’adresse que les joueurs pourront copier. Ajoutez Discord ou vos autres réseaux à l’espace communauté et publiez des actualités pour remplir le carnet.\n\nDans **Administration → Thèmes**, installez Horizon et cliquez sur **Utiliser pour le site**.\n"
             },
             "image": {
-                "en": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Horizon/v1.0.1/resources/market/preview-en.jpg",
-                "fr": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Horizon/v1.0.1/resources/market/preview-fr.jpg"
+                "en": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Horizon/v1.1.0/resources/market/preview-en.jpg",
+                "fr": "https://raw.githubusercontent.com/Kraftink-CMS/Theme-Horizon/v1.1.0/resources/market/preview-fr.jpg"
             },
             "author": {
                 "id": "kraftink-cms",
@@ -298,6 +298,18 @@
             },
             "manual_only": false,
             "versions": [
+                {
+                    "version": "1.1.0",
+                    "requirements": {
+                        "cms": ">=0.0.1",
+                        "php": "^8.3"
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Theme-Horizon/releases/download/v1.1.0/horizon-1.1.0.zip",
+                        "sha256": "0c3ed787598977d25350d06fe49bd40ff5712a95cae3865fe38fa56d4c313b80"
+                    },
+                    "changelog": "## Changes\n\n- fix: preserve icon rendering on published CMS versions ([`3dc84bd`](https://github.com/Kraftink-CMS/Theme-Horizon/commit/3dc84bd6c8ada6ec044e417d8b23c257de328d8f))\n- feat: use the shared content icon renderer ([`e006259`](https://github.com/Kraftink-CMS/Theme-Horizon/commit/e006259aca858585260eb3b31326095b5c64c4a3))\n\n[Full comparison](https://github.com/Kraftink-CMS/Theme-Horizon/compare/v1.0.1...3dc84bd6c8ada6ec044e417d8b23c257de328d8f)"
+                },
                 {
                     "version": "1.0.1",
                     "requirements": {
