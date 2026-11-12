@@ -771,6 +771,23 @@
             "manual_only": false,
             "versions": [
                 {
+                    "version": "1.1.1",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Support/releases/download/v1.1.1/support-1.1.1.zip",
+                        "sha256": "8939de59c2c7dfabb4759136e2eb8a36f449e70094b8e2b85c084878d7de5028"
+                    },
+                    "changelog": "## Changes\n\n- fix: use the shared icon components directly ([`34932f0`](https://github.com/Kraftink-CMS/Plugin-Support/commit/34932f0493f8bed247db7a902e79c075516c26f5))\n\n[Full comparison](https://github.com/Kraftink-CMS/Plugin-Support/compare/v1.1.0...34932f0493f8bed247db7a902e79c075516c26f5)"
+                },
+                {
                     "version": "1.1.0",
                     "requirements": {
                         "php": "^8.4.1",
