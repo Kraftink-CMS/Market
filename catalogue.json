@@ -232,6 +232,23 @@
             "manual_only": false,
             "versions": [
                 {
+                    "version": "1.1.1",
+                    "requirements": {
+                        "php": "^8.4.1",
+                        "cms": ">=0.0.1"
+                    },
+                    "games": {
+                        "supported": [
+                            "*"
+                        ]
+                    },
+                    "download": {
+                        "url": "https://github.com/Kraftink-CMS/Plugin-Forum/releases/download/v1.1.1/forum-1.1.1.zip",
+                        "sha256": "0268304be9e30bf958285c95802be849b27931a1b35137432c4c6886166b28fb"
+                    },
+                    "changelog": "## Changes\n\n- fix: use the shared icon components directly ([`9ba4522`](https://github.com/Kraftink-CMS/Plugin-Forum/commit/9ba4522ae0ed6204a1af7b1968dedca6687d66e5))\n\n[Full comparison](https://github.com/Kraftink-CMS/Plugin-Forum/compare/v1.1.0...9ba4522ae0ed6204a1af7b1968dedca6687d66e5)"
+                },
+                {
                     "version": "1.1.0",
                     "requirements": {
                         "php": "^8.4.1",
